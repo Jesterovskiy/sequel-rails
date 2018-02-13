@@ -1,8 +1,8 @@
 # sequel-rails
 
-[![Gem Version](https://badge.fury.io/rb/sequel-rails.png)][gem]
-[![Build Status](https://secure.travis-ci.org/TalentBox/sequel-rails.png?branch=master)][travis]
-[![Code Climate](https://codeclimate.com/github/TalentBox/sequel-rails.png)][codeclimate]
+[![Gem Version](https://badge.fury.io/rb/sequel-rails.svg)][gem]
+[![Build Status](https://secure.travis-ci.org/TalentBox/sequel-rails.svg?branch=master)][travis]
+[![Code Climate](https://codeclimate.com/github/TalentBox/sequel-rails.svg)][codeclimate]
 
 [gem]: https://rubygems.org/gems/sequel-rails
 [travis]: http://travis-ci.org/TalentBox/sequel-rails
@@ -399,6 +399,9 @@ Improvements have been made by those awesome contributors:
 * Mohammad Satrio (@tyok)
 * Gencer W. Genç (@gencer)
 * Steve Hoeksema (@steveh)
+* Jester (@Jesterovskiy)
+* ckoenig (@ckoenig)
+* Rolf Timmermans (@rolftimmermans)
 
 Credits
 =======

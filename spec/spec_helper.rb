@@ -26,8 +26,10 @@ RSpec.configure do |config|
       :en,
       'sequel' => {
         'models' => {
-          'user' => 'translated user' }
-      })
+          'user' => 'translated user'
+        }
+      }
+    )
   end
 
   config.around :each do |example|
@@ -51,6 +53,7 @@ end
 begin
   require 'sequel_rails/storage'
   require 'sequel/extensions/migration'
+  ::SequelRails.setup(Rails.env)
   load "#{Rails.root}/db/schema.rb.init"
   Sequel::Migration.descendants.first.apply Sequel::Model.db, :up
 rescue Sequel::DatabaseConnectionError => e

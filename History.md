@@ -1,6 +1,16 @@
 dev
 ===
 
+* Update controller tests to cope with `ActionDispatch::IntegrationTest`
+  params handling change.
+* Fix db:create rake tasks (Rolf Timmermans)
+  [#145](https://github.com/TalentBox/sequel-rails/pull/145)
+
+1.0.0 (2017-11-20)
+==================
+
+* Support for Sequel ~> 5.0 (@Jesterovskiy and @ckoenig)
+  [#143](https://github.com/TalentBox/sequel-rails/pull/143)
 * Better handling of missing database when using Postgresql (Steve Hoeksema)
   [#140](https://github.com/TalentBox/sequel-rails/pull/140)
 * Bump version to 1.0.0.alpha
